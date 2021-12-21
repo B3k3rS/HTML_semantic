@@ -1,0 +1,538 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  padding: 0; 
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: Montserrat;
+}
+
+section.header, section.footer, section.CV-list {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.CV-list {
+  padding: 20px 0;
+}
+
+/* HEADER */
+header {
+  background: rgb(245, 144, 50);
+  color: #fff;
+}
+
+header .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  padding: 10px 0 5px;
+}
+
+nav a{
+  padding: 0 10px;
+}
+
+/* MAIN */
+main {
+  background: #fff;
+}
+
+.CV-list{ 
+  margin: 20px auto;
+}
+
+.CV-list h2{
+  font-weight: normal;
+  padding: 10px 0 5px;
+}
+
+.first-cv .CV-information {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.CV.first-cv {
+  border-left: 1px solid rgb(154, 154, 255);
+  border-right: 1px solid rgb(79, 79, 255);
+  margin-bottom: 50px;
+}
+
+/* FS CV HEADER */
+.CV .header {
+  background: linear-gradient(to right, rgb(154, 154, 255),rgb(79, 79, 255));
+}
+
+
+.first-cv .photo{
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  margin-left: 200px;
+  border-radius: 100px;
+}
+
+.first-cv .photo img {
+  border-radius: 100px;
+  height: 200px;
+  
+}
+
+.CV .header {
+  display: flex;
+  align-items: center;
+  padding: 20px 0 10px;
+}
+
+.short-info {
+  
+  color: #fff;
+  margin: 0 auto;
+}
+
+.short-info h3 {
+  font-size: 40px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.short-info h4 { 
+  font-size: 30px;
+  font-weight: normal;
+  text-align: center;
+}
+
+/* FS CV - COLUMN SIZE */
+
+.first-cv .left-column  {
+  padding-left: 30px;
+  width: 370px;
+}
+
+.first-cv .right-column {
+  width: 720px;
+  padding-right: 30px;
+}
+
+/* FS CV - LEFT COLUMN - ABOUT */
+.first-cv .about-me h5 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  border-bottom: 2px solid rgb(79, 79, 255);
+}
+
+.first-cv .about-me p {
+  font-size: 16px;
+  padding-top: 5px;
+  
+}
+
+.first-cv .about-me{
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+
+/* FS CV - LEFT COLUMN - CONTACT */
+
+.first-cv .contact h5 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  border-bottom: 2px solid rgb(79, 79, 255);
+}
+
+.first-cv .contact h6 { 
+  font-weight: bold;
+  font-size: 16px;
+  padding-top: 8px;
+  text-transform: uppercase;
+}
+
+.first-cv .contact {
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+
+
+/* FS CV - LEFT COLUMN - SKILLS */
+
+.first-cv .skills h5 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  border-bottom: 2px solid rgb(79, 79, 255);
+}
+
+.first-cv .skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.first-cv .skill-list span {
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 0 0 0;
+}
+
+.first-cv .skillprogress{
+  background: rgb(179, 179, 179);
+  width: 80px;
+  height: 10px;
+  border-radius: 10px;
+}
+
+.first-cv .skillprogress div{
+  background: rgb(79, 79, 255);
+  width: 0%;
+  height: 10px;
+  border-radius: 5px;
+}
+ 
+.first-cv .skills {
+  padding: 10px 0;
+  
+}
+
+/* FS CV - RIGHT COLUMN - EXPERIENCE */
+.first-cv .experience h4{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  border-bottom: 2px solid rgb(79, 79, 255);
+  text-transform: uppercase;
+}
+
+.first-cv .experience h5{
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 5px;
+  text-transform: uppercase;
+}
+
+.first-cv .experience h6{
+  font-weight: bold;
+  font-size: 16px;
+  color: rgb(154, 154, 255);
+  text-transform: uppercase;
+}
+
+.first-cv .experience p{
+  font-size: 14px;
+}
+
+.first-cv .exp {
+  padding: 5px 0;
+}
+
+.first-cv .experience {
+  padding: 10px 0;
+}
+
+/* FS CV - RIGHT COLUMN - EDUCATION */
+.first-cv .education h4{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  border-bottom: 2px solid rgb(79, 79, 255);
+  text-transform: uppercase;
+}
+
+.first-cv .education h5{
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 5px;
+  text-transform: uppercase;
+}
+
+.first-cv .education h6{
+  font-weight: bold;
+  font-size: 16px;
+  color: rgb(154, 154, 255);
+  text-transform: uppercase;
+}
+
+.first-cv .education p{
+  font-size: 14px;
+}
+
+.first-cv .educ {
+  padding: 5px 0;
+}
+
+.first-cv .education {
+  padding: 10px 0;
+}
+
+/* FS CV FOOTER */
+
+.first-cv .footer {
+  background: linear-gradient(to right, rgb(154, 154, 255),rgb(79, 79, 255));
+  height: 30px;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+/* SC CV - COLUMN */
+.second-cv .left-column{
+  background: rgb(106, 106, 214);
+  width: 500px;
+}
+
+.second-cv .right-column {
+  width: 700px;
+  background: #fff;
+}
+.second-cv .CV-information {
+  display: flex;
+}
+
+.second-cv {
+  border: 1px solid rgb(106, 106, 214);
+}
+
+
+
+/* SC CV - LEFT COLUMN - PHOTO */
+.second-cv .photo {
+  width: 300px;
+  border-radius: 150px;
+  margin: 0 auto;
+  padding-top: 50px;  
+}
+
+.second-cv .photo img{
+  width: 300px;
+  border-radius: 150px;
+  box-shadow: 0 0 10px 10px rgb(58, 58, 124);
+}
+
+/* SC CV - LEFT COLUMN - NAME */
+.second-cv .name {
+  margin-top: 20px;
+  padding: 5px 0;
+  background: rgb(58, 58, 124);
+}
+.second-cv .name h3{
+  color: #fff;
+  font-weight: bold;
+  font-size: 34px;
+  text-align: center;
+}
+
+/* SC CV - LEFT COLUMN - CONTACT */
+.second-cv .contact {
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.second-cv .contact h4 {
+  padding-top: 10px;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.second-cv .contact p {
+  font-size: 16px;
+}
+
+/* SC CV - LEFT COLUMN - LANGUAGES */
+.second-cv .languages {
+  margin-top: 10px;
+}
+.second-cv .languages .title{
+  height: 40px;
+  background: rgb(58, 58, 124);
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.second-cv .languages h5 {
+  padding-left: 50px;
+  color: #fff;
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.second-cv .mark{
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  padding-top: 3px;
+}
+.second-cv .mark-point {
+  height: 18px;
+  width: 18px;
+  border-radius: 9px;
+  background: #fff;
+  margin-right: 5px;
+}
+
+.second-cv .mark-point.not{
+  opacity: 0.3;
+}
+
+/* soft-skills */
+.second-cv .soft-skill {
+  margin-top: 30px;
+}
+
+.second-cv .soft-skill .title{
+  height: 40px;
+  background: rgb(58, 58, 124);
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.second-cv .soft-skill h5 {
+  padding-left: 50px;
+  color: #fff;
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+/* SC CV - LEFT COLUMN - PERSONALITY */
+.second-cv .personality {
+  margin-top: 20px;
+}
+
+.second-cv .personality .title{
+  height: 40px;
+  background: rgb(58, 58, 124);
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.second-cv .personality ul {
+  list-style:none;
+  margin-left: 40px;
+  font-size: 18px;
+  color: #fff;
+  padding: 10px 0;
+  padding-bottom: 70px;
+}
+
+.second-cv .personality li::before {
+  content: '✓';
+  color: #fff;
+  padding: 3px 10px;
+}
+
+/* SC CV - FOOTER */
+.second-cv .footer {
+  background: rgb(106,106,214);
+  color: #fff;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+}
+
+/* SC CV - RIGHT COLUMN */
+.second-cv .right-column section {
+  padding: 30px 30px 0;
+
+}
+
+.second-cv .right-column section div {
+  padding: 10px 0;
+}
+
+.second-cv .right-column section h3{
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.second-cv .right-column section p{
+  font-size: 16px;
+}
+
+.second-cv section.skills ul{
+  list-style: none;
+}
+
+.second-cv section.skills li::before{
+  content: '✓';
+  padding: 0 10px 0 0;
+  color: #000;
+}
+
+.second-cv .hobbies {
+  display: flex;
+  align-items: center;
+}
+
+.second-cv .hobbies img {
+  height: 70px;
+}
+
+.second-cv .hobbies div{
+  text-align: center;
+  width: 150px;
+}
+
+/* FOOTER */
+footer {
+  background: rgb(245, 144, 50);
+  color: #fff;
+}
+
+.footer p {
+  text-align: center;
+  font-size: 16px;
+  padding: 5px 0;
+}
+
+/* NAV BUTTON */
+.top-button {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: rgb(245, 144, 50);
+  font-size: 20px;
+  border-radius: 15px;
+  opacity: 0;
+}
+
+
+
