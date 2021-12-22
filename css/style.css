@@ -179,8 +179,8 @@ main {
   justify-content: space-between;
 }
 
-.first-cv .skill-list span {
-  width: 170px;
+.first-cv .skill-list div.skill-row {
+  width: 180px;
   display: flex;
   justify-content: space-between;
   align-items: center;
